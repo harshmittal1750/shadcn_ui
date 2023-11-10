@@ -1,10 +1,14 @@
+import Banner from "@/components/Banner/Banner";
 import Nav from "@/components/Nav";
+import ProjectCard from "@/components/ProjectCard/ProjectCard";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       <Nav />
+      <Banner />
+      <ProjectCard />
     </main>
   );
 }
